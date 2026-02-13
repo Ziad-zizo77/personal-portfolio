@@ -3,188 +3,552 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INANCE – Repair & Maintenance</title>
-    <!-- Font Awesome 6 -->
+    <title>Ziad Mohammad - Portfolio</title>
     <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <!-- HEADER (خلفية زرقاء كاملة) -->
-    <header class="blue-bg">
-      <div class="inner-container">
-        <div class="header-content">
-          <h1 class="logo">INANCE</h1>
-          <ul class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact-us">Contact Us</a></li>
+    <!-- Start Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo"><i class="fas fa-code"></i>Ziad</div>
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
-    <section class="home blue-bg">
-      <div class="inner-container">
-        <div class="home-content">
-          <div class="home-left">
-            <h2>Repair and <br />Maintenance <br />Services</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum
-              voluptatem adipisci. Quos molestiae saepe dicta nobis pariatur,
-              tempora iusto, ad possimus soluta hic praesentium mollitia
-              consequatur beatae, aspernatur culpa.
-            </p>
-            <button class="btn">Contact Us</button>
+    <!-- End Header -->
+    <!-- Start Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Hello, I'm <span class="highlight">Ziad Mohammad</span></h1>
+          <div class="subtitle-animation">
+            <span id="typing-text"></span>
           </div>
-          <div class="image">
-            <img
-              src="./assets/images/main-img.png"
-              alt="Repair tools"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="btns-section">
-      <div class="inner-container">
-        <div class="btns">
-          <button class="btn-icon">
-            <i class="fa-solid fa-pen"></i> Repair
-          </button>
-          <button class="btn-icon active">
-            <i class="fa-solid fa-home"></i> Improve
-          </button>
-          <button class="btn-icon">
-            <i class="fa-solid fa-pen"></i> Maintain
-          </button>
+          <p class="description">
+            Specialized in creating modern, responsive websites and web
+            applications. I transform ideas into beautiful and functional
+            digital products.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="" class="btn btn-secondary" download>
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./assets/images/hero-img.avif" alt="Ziad Mohammad" />
         </div>
       </div>
     </section>
-    <section class="about-section" id="about">
-      <div class="inner-container">
-        <div class="about">
-          <div class="about-left">
-            <h2>About Us</h2>
+    <!-- End Hero Section -->
+    <!-- Start About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomisedThere are many variations of
-              passages of Lorem Ipsum available, but the majority have suffered
-              alteration in some form, by injected humour, or randomised
+              I'm a passionate web developer with experience in creating modern
+              and user-friendly websites. I focus on transforming ideas into
+              beautiful and effective digital products.
             </p>
-            <button class="btn">Read More</button>
-          </div>
-          <div class="image">
-            <img
-              src="./assets/images/about-img.jpg"
-              alt="About us"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="prof-section">
-      <div class="inner-container">
-        <div class="prof">
-          <div class="image">
-            <img
-              src="./assets/images/contact-img.png"
-              alt="Professional service"
-              loading="lazy"
-            />
-          </div>
-          <div class="prof-right">
-            <h2>We Provide Professional <br />Home Services.</h2>
             <p>
-              randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure
-              there isn't anything embarrassing hidden in the middle of text.
-              All randomised words which don't look even slightly
+              Specialized in HTML, CSS, and JavaScript. I love learning new
+              technologies and continuously improving my skills to deliver
+              better solutions.
             </p>
-            <button class="btn">Contact Us</button>
+            <ul class="about-list">
+              <li><i class="fas fa-check"></i> Responsive Web Development</li>
+              <li><i class="fas fa-check"></i> Beautiful UI Design</li>
+              <li><i class="fas fa-check"></i> User Experience Optimization</li>
+              <li><i class="fas fa-check"></i> Clean & Professional Code</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img src="./assets/images/about-img.png" alt="About Me" />
           </div>
         </div>
       </div>
     </section>
-
-    <section class="services-section" id="services">
-      <div class="inner-container">
-        <div class="services">
-          <h2>Our Services</h2>
-          <div class="cards">
-            <div class="card">
-              <i class="fa-solid fa-screwdriver-wrench"></i>
-              <h3>Maintenance</h3>
-              <p>
-                when looking at its layout. The point of using Lorem Ipsum is
-                that it has a more-or-less normal
-              </p>
-            </div>
-            <div class="card">
-              <i class="fa-solid fa-plug"></i>
-              <h3>Electrical</h3>
-              <p>
-                when looking at its layout. The point of using Lorem Ipsum is
-                that it has a more-or-less normal
-              </p>
-            </div>
-            <div class="card">
-              <i class="fa-solid fa-sink"></i>
-              <h3>Plumbing</h3>
-              <p>
-                when looking at its layout. The point of using Lorem Ipsum is
-                that it has a more-or-less normal
-              </p>
+    <!-- End About Section -->
+    <!-- Start Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>Professional HTML structure and semantics</p>
+            <div class="skill-level">
+              <div class="progress" style="width: 95%"></div>
             </div>
           </div>
-          <button class="btn">View More</button>
+          <div class="skill-card">
+            <i class="fa-brands fa-css3"></i>
+            <h3>CSS3</h3>
+            <p>Modern design and advanced layouts</p>
+            <div class="skill-level">
+              <div class="progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Interactive and dynamic programming</p>
+            <div class="skill-level">
+              <div class="progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-palette"></i>
+            <h3>UI/UX Design</h3>
+            <p>User interface design and UX principles</p>
+            <div class="skill-level">
+              <div class="progress" style="width: 68%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Responsive Design</h3>
+            <p>Mobile-friendly websites for all devices</p>
+            <div class="skill-level">
+              <div class="progress" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-paint-brush"></i>
+            <h3>FIGMA</h3>
+            <p>Prototyping and UI/UX design</p>
+            <div class="skill-level">
+              <div class="progress" style="width: 50%"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- End Skills Section -->
+    <!-- Start Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
 
-    <section class="contact-section" id="contact-us">
-      <div class="inner-container">
-        <div class="contact">
-          <div class="contact-left">
-            <h2>Contact Us</h2>
-            <form action="#" method="post">
-              <input type="text" name="name" placeholder="Name" required />
-              <input
-                type="tel"
-                name="phone"
-                placeholder="Phone Number"
-                pattern="[0-9]{10,}"
-                title="Please enter valid phone number"
+        <div class="projects-grid">
+          <!-- Project INANCE -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="./assets/images/projects/inance.png"
+                alt="Inance Website"
               />
-              <input type="email" name="email" placeholder="Email" required />
-              <textarea name="message" placeholder="Message"></textarea>
-              <input class="btn" type="submit" value="SEND" />
-            </form>
+              <div class="project-overlay">
+                <a
+                  href="https://ziad-zizo77.github.io/Inance-Website/"
+                  target="_blank"
+                  class="project-btn view"
+                >
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a
+                  href="https://github.com/Ziad-zizo77/Inance-Website.git"
+                  target="_blank"
+                  class="project-btn github"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h3>Inance Website</h3>
+              <p>
+                Professional responsive website for a digital services company.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive</span>
+              </div>
+            </div>
           </div>
-          <div class="contact-frame">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.67522273715!2d31.110806624958364!3d30.059554566969474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1769585452050!5m2!1sen!2seg"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              allowfullscreen
-            >
-            </iframe>
+          <!-- Project Animation Sun -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="./assets/images/projects/sun-animation.png"
+                alt="Task Manager"
+              />
+
+              <div class="project-overlay">
+                <a
+                  href="https://ziad-zizo77.github.io/sun-animation/"
+                  target="_blank"
+                  class="project-btn view"
+                >
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a
+                  href="https://github.com/Ziad-zizo77/sun-animation.git"
+                  target="_blank"
+                  class="project-btn github"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h3>Animation Sun</h3>
+              <p>A Simple page with Sunrise And Sunset Animation</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project Grid Templete -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="./assets/images/projects/grid.png"
+                alt="grid templete"
+              />
+
+              <div class="project-overlay">
+                <a
+                  href="https://ziad-zizo77.github.io/grid-page/"
+                  target="_blank"
+                  class="project-btn view"
+                >
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a
+                  href="https://github.com/Ziad-zizo77/grid-page.git"
+                  target="_blank"
+                  class="project-btn github"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h3>Grid Templete</h3>
+              <p>A Simple Grid Templete</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project Charles Services -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="./assets/images/projects/charles.png"
+                alt="charles services"
+              />
+
+              <div class="project-overlay">
+                <a
+                  href="https://ziad-zizo77.github.io/charles-website/"
+                  target="_blank"
+                  class="project-btn view"
+                >
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a
+                  href="https://github.com/Ziad-zizo77/charles-website.git"
+                  target="_blank"
+                  class="project-btn github"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h3>Charles Services</h3>
+              <p>A Best Responsive Business Services Landing Page</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project Omelette Recipe -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="./assets/images/projects/omelette.png"
+                alt="omelette recipe"
+              />
+
+              <div class="project-overlay">
+                <a
+                  href="https://ziad-zizo77.github.io/Simple-Omelette-Recipe/"
+                  target="_blank"
+                  class="project-btn view"
+                >
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a
+                  href="https://github.com/Ziad-zizo77/Simple-Omelette-Recipe.git"
+                  target="_blank"
+                  class="project-btn github"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h3>Simple Omelette Recipe</h3>
+              <p>
+                An easy and quick dish, perfect for any meal. This classic
+                omelette combines beaten eggs cooked to perfection, optionally
+                filled with your choice of cheese, vegetables, or meats.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project Travilifa -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="./assets/images/projects/travilifa.png"
+                alt="travilifa "
+              />
+
+              <div class="project-overlay">
+                <a
+                  href="https://ziad-zizo77.github.io/Travilifa//"
+                  target="_blank"
+                  class="project-btn view"
+                >
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a
+                  href="https://github.com/Ziad-zizo77/Travilifa.git"
+                  target="_blank"
+                  class="project-btn github"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h3>Travilifa</h3>
+              <p>
+                Explore the world's most amazing destinations with Travilifa.
+                Book trips, find special deals, and enjoy unforgettable travel
+                experiences.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project Login Validation Form -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./assets/images/projects/form.png" alt="login form" />
+
+              <div class="project-overlay">
+                <a
+                  href=" https://ziad-zizo77.github.io/Login-Validation-Form/"
+                  target="_blank"
+                  class="project-btn view"
+                >
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a
+                  href="https://github.com/Ziad-zizo77/Login-Validation-Form.git"
+                  target="_blank"
+                  class="project-btn github"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h3>Login Validation</h3>
+              <p>
+                A simple login form with validation using HTML, CSS, and
+                JavaScript.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>css</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <!-- Project Hospital -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./assets/images/projects/hospital.png" alt="hospital" />
+
+              <div class="project-overlay">
+                <a
+                  href=" https://ziad-zizo77.github.io/Hospital/"
+                  target="_blank"
+                  class="project-btn view"
+                >
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a
+                  href="https://github.com/Ziad-zizo77/Hospital.git"
+                  target="_blank"
+                  class="project-btn github"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h3>Hospital</h3>
+              <p>
+                A Hospital website with HTML, CSS, and JavaScript. The website
+                includes a landing page, about page, and contact page.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- End Projects Section -->
+    <!-- Start Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+010 0633 1383</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>zm4025828@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>Egypt - Al-fayoum</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://facebook.com" target="_blank" title="facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ziad-mohamed-abb54838b"
+                target="_blank"
+                title="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/Ziad-zizo77"
+                target="_blank"
+                title="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
 
-    <footer>
-      <div class="inner-container">
-        <p>&copy; 2026 Developed by Eng.Ziad Mohammad</p>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Message subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 All rights reserved by <span>Eng.Ziad Mohammad</span></p>
       </div>
     </footer>
+    <script src="./assets/main.js"></script>
   </body>
 </html>
