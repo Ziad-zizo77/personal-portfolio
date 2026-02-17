@@ -1,0 +1,114 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title":"INANCE Website",
+      "discreption": "Professional responsive website for a digital services company.",
+      "image": "./assets/images/projects/inance.png",
+      "view": "https://ziad-zizo77.github.io/Inance-Website/",
+      "github": "https://github.com/Ziad-zizo77/Inance-Website.git",
+      "tags": [
+        "HTML", "CSS", "Responsive"
+      ]
+    },
+    {
+      "id": 2,
+      "title":"Animation Sun",
+      "discreption": "A Simple page with Sunrise And Sunset Animation",
+      "image": "./assets/images/projects/sun-animation.jpeg",
+      "view": "https://ziad-zizo77.github.io/sun-animation/",
+      "github": "https://github.com/Ziad-zizo77/sun-animation.git",
+      "tags": [
+        "HTML", "CSS"
+      ]
+    },
+    {
+      "id": 3,
+      "title":"Grid Templete",
+      "discreption": "A Simple Grid Templete",
+      "image": "./assets/images/projects/grid.jpg",
+      "view": "https://ziad-zizo77.github.io/grid-page/",
+      "github": "https://github.com/Ziad-zizo77/grid-page.git",
+      "tags": [
+        "HTML", "CSS"
+      ]
+    },
+    {
+      "id": 4,
+      "title":"Charles Services",
+      "discreption": "A Best Responsive Business Services Landing Page.",
+      "image": "./assets/images/projects/charles.png",
+      "view": "https://ziad-zizo77.github.io/charles-website/",
+      "github": "https://github.com/Ziad-zizo77/charles-website.git",
+      "tags": [
+        "HTML", "CSS", "Responsive"
+      ]
+    },
+    {
+      "id": 5,
+      "title":"Simple Omelette Recipe",
+      "discreption": "An easy and quick dish, perfect for any meal. This classicomelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.",
+      "image": "./assets/images/projects/omelette.jpeg",
+      "view": "https://ziad-zizo77.github.io/Simple-Omelette-Recipe/",
+      "github": "https://github.com/Ziad-zizo77/Simple-Omelette-Recipe.git",
+      "tags": [
+        "HTML", "CSS"
+      ]
+    },
+    {
+      "id": 6,
+      "title":"Travilifa",
+      "discreption": "Explore the world's most amazing destinations with Travilifa.Book trips, find special deals, and enjoy unforgettable travel experiences.",
+      "image": "./assets/images/projects/travilifa.png",
+      "view": "https://ziad-zizo77.github.io/Travilifa/",
+      "github": "https://github.com/Ziad-zizo77/Travilifa.git",
+      "tags": [
+        "HTML", "Bootstrap"
+      ]
+    },
+    {
+      "id": 7,
+      "title":"Login Validation",
+      "discreption": "A simple login form with validation using HTML, CSS, and JS.",
+      "image": "./assets/images/projects/form.png",
+      "view": "https://ziad-zizo77.github.io/Login-Validation-Form/",
+      "github": "https://github.com/Ziad-zizo77/Login-Validation-Form.git",
+      "tags": [
+        "HTML", "Bootstrap", "JS"
+      ]
+    },
+    {
+      "id": 8,
+      "title":"Hospital",
+      "discreption": "A Hospital website with HTML, CSS, and JS. The website includes a landing page, about page, and contact page.",
+      "image": "./assets/images/projects/hospital.png",
+      "view": "https://ziad-zizo77.github.io/Hospital/",
+      "github": "https://github.com/Ziad-zizo77/Hospital.git",
+      "tags": [
+        "HTML", "Bootstrap", "JS", "APIs"
+      ]
+    },
+    {
+      "id": 9,
+      "title":"Personal Portfolio",
+      "discreption": "A personal portfolio website to showcase my skills, projects, and experience as a Front-End Developer, featuring a clean design, smooth animations, and full responsiveness across all devices.",
+      "image": "./assets/images/projects/portfolio.png",
+      "view": "https://ziad-zizo77.github.io/personal-portfolio/",
+      "github": "https://github.com/Ziad-zizo77/personal-portfolio.git",
+      "tags": [
+        "HTML", "CSS", "JS", "APIs"
+      ]
+    },
+    {
+      "id": 9,
+      "title":"Foody Restaraunt",
+      "discreption": "A Foody Restaraunt website with HTML, CSS, and JS. The website includes a landing page, about page, and contact page.",
+      "image": "./assets/images/projects/restaraunt.jpg",
+      "view": "https://ziad-zizo77.github.io/Restaraunt/",
+      "github": "https://github.com/Ziad-zizo77/Restaraunt.git",
+      "tags": [
+        "HTML", "CSS", "JS", "APIs"
+      ]
+    }
+  ]
+}
